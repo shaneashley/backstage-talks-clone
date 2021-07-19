@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    background-color: #00c1b5;
+    font-family: 'Roboto', sans-serif;
+    background: #00c1b5;
+    transition: background;
+}
+
+#test {
+    visibility: hidden;
+}
+
+.logo {
+    width: 53%;
+    height: auto;
+    margin: 3%;
+}
+
+.priv-logo {
+    width: 15%;
+    height: auto; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+height: 100vh;
+scroll-snap-type: mandatory;
+scroll-snap-points-y: repeat(300px);
+scroll-snap-type: y mandatory;
+}
+
+.cont3 {
+scroll-snap-align: start;
+}
+.cont1 {
+    align-content: space-between;
+    flex-grow: 1;
+   float: left;
+   flex-direction: column;
+   position: fixed;
+  
+
+}
+
+.parag1 {
+    align-self: flex-end;
+    text-align: left;
+    margin-top: 80%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+
+.policy {
+    margin-left: 5%;
+    margin-top: 7%; 
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h6 {
+    margin-left: 5%;
+    margin-top: 1%; 
+    font-weight: lighter;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.issue1-img {
+    width: 27%;
+    height: auto;
+    margin-right: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+.cont2 {
+    align-content: space-between;
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.mid-text {
+    text-align: center;
+  margin-left: 2%;
+  align-items: center;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+.cont3 {
+   
+    flex-grow: 1;
+    margin-left: 84%;
+    flex-direction: column;
+    align-items: right;
+    color: black;
+    position: fixed;
+    float: right;
+    
+}
+
+
+h4 .mid-text {
+    text-decoration: none;
+}
+
+
+.info {
+    padding: 15px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+ul {
+list-style-type: none;
+padding: 5px;
+padding-bottom: 2px;
+margin: 0;
+text-align: right;
+margin-top: 220%;
+text-decoration: none;
+color: black;
+
+}
+
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-right: 0;
+    align-items: right;
+    column-gap: 5px;
+    text-align: right;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: black;
+}
+
+a { color: inherit; } 
+
+.selected {
+    color: white;
+}
+
+.cont-issue2 {
+height: 100vh;
+}
+
+.cont4{
+    height: 100vh;
+
+}
+
+.cont5{
+    height: 100vh;
+}
+
+.cont6{
+    height: 100vh;
+}
+
+.cont7{
+    height: 100vh;
+}
+
+
+.content {
+    padding: 0%  20% 5% 10%;
+}
+
+.priv-h1 {
+    font-size: 1.3rem;
+    margin-top: 2%;
+ 
+}
+p {
+    font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+font-size: 0.8rem;
+
+}
+
+.priv-logo {
+    width: 17%;
+    height: auto;
+    margin: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .parag1 {
+        visibility: hidden;
+    }
+h6 {
+    visibility: hidden;
+}
+
+.policy {
+    visibility: hidden;
+}
+    .cont3 {
+        visibility: hidden;
+    }
+
+    .issue1-img {
+        width: 55%;
+        height: auto;
+        margin: 23%;
+        margin-bottom: 0;
+    }
+  }
+
+
+  
+@media only screen and (max-width: 667px) {
+    
+    .logo {
+        width: 43%;
+        height: auto;
+    }
+    .parag1 {
+        visibility: hidden;
+    }
+h6 {
+    visibility: hidden;
+}
+
+.policy {
+    visibility: hidden;
+}
+    .cont3 {
+        visibility: hidden;
+    }
+
+    .issue1-img {
+        width: 80%;
+        height: auto;
+        margin: 20% 10%;
+        margin-bottom: 0;
+    }
+  }
